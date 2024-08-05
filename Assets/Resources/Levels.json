@@ -1,0 +1,26 @@
+[
+  {
+    "Words": [
+      {
+        "MainWord": "Фермер",
+        "Cluster": "Рме"
+      },
+      {
+        "MainWord": "Машина",
+        "Cluster": "Аш"
+      },
+      {
+        "MainWord": "Дорога",
+        "Cluster": "До"
+      },
+      {
+        "MainWord": "Здание",
+        "Cluster": "ани"
+      }
+    ],
+    "TrashClusters": [
+      "Ин",
+      "Дро"
+    ]
+  }
+]
