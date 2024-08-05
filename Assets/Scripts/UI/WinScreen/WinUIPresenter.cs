@@ -51,8 +51,6 @@ namespace GameplayUI.WinScreen
 
         private void HandleMenuButtonClicked()
         {
-            _levelReferee.HandleLevelPassed();
-            
             OnMenuButtonClicked?.Invoke();
         }
     }

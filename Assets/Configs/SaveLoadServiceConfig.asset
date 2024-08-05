@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: SaveLoadServiceConfig
   m_EditorClassIdentifier: 
   <SaveInterval>k__BackingField: 10
-  <AutoSaverPrefab>k__BackingField: {fileID: 0}
+  <AutoSaverPrefab>k__BackingField: {fileID: 472558193621600218, guid: 7d3ad3b659028b14e9eb03e6c5d6e9ce, type: 3}

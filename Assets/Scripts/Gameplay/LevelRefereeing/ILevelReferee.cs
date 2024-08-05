@@ -10,6 +10,5 @@ namespace Gameplay.LevelRefereeing
         Queue<string> SolvedWords { get; }
         void StartLevel();
         void HandleWordSolved(WordConfig word);
-        void HandleLevelPassed();
     }
 }

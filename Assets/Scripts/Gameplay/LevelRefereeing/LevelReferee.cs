@@ -39,6 +39,9 @@ namespace Gameplay.LevelRefereeing
 
         public void HandleWordSolved(WordConfig word)
         {
+            if (_solvedWords.Contains(word.MainWord))
+                return;
+            
             _solvedWords.Enqueue(word.MainWord);
             _progressService.PlayerProgress.CurrentLevelSolvedWords.Add(word);
             _saveLoadService.SaveProgress();
@@ -46,12 +49,12 @@ namespace Gameplay.LevelRefereeing
             if (_solvedWords.Count == _levelConfig.Words.Length)
             {
                 OnLevelPassed?.Invoke();
+                HandleLevelPassed();
             }
         }
 
-        public void HandleLevelPassed()
+        private void HandleLevelPassed()
         {
-            _solvedWords.Clear();
             _levelService.PassCurrentLevel();
             _saveLoadService.SaveProgress();
         }
