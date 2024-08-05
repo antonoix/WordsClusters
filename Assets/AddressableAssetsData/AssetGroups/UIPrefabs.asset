@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UIPrefabs
+  m_EditorClassIdentifier: 
+  m_GroupName: UIPrefabs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 89645d80fbdd928438f1679bd57964ca
+  m_SerializeEntries:
+  - m_GUID: 2e9bcafb1eb5e9341943a97559cf01fa
+    m_Address: MenuUI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 171b272a5e91be548bde409ed56951d2
+    m_Address: GamePlayUI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6eeab2ea5fc807498ef0c5205add6df
+    m_Address: WordView
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - WordRowView
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa0c8d5be6e7460428c2fbb27c67b32e
+    m_Address: Cluster
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ClusterView
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c00f67fc6cc4e949a2299059b3d0fcd
+    m_Address: WinUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - WinView
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14c44566f3266994593f9bb788d9e618
+    m_Address: SolvedWord
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SolvedWord
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0f8e1989bd56bc54ca546b695b5608da, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d343dc612c853ed4ab0d9f692c1c5bbb, type: 2}
+    - {fileID: 11400000, guid: cd26ae21d699ddc4f916989aa9a8c5d2, type: 2}
